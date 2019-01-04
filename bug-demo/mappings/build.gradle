@@ -1,0 +1,11 @@
+dependencies {
+  api project(":pojos")
+  compileOnly "org.mapstruct:mapstruct-jdk8:1.3.0.Beta2"
+  annotationProcessor "org.mapstruct:mapstruct-processor:1.3.0.Beta2"
+}
+
+compileJava {
+  options.compilerArgs = [
+      "-Amapstruct.unmappedTargetPolicy=ERROR"
+  ]
+}
