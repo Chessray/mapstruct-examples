@@ -8,7 +8,7 @@
 
 plugins {
     // Apply the java-library plugin to add support for Java Library
-    id "io.franzbecker.gradle-lombok" version "1.14" apply false
+    id "io.franzbecker.gradle-lombok" version "5.0.0" apply false
 }
 
 repositories {
