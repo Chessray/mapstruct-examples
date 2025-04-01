@@ -28,7 +28,7 @@ subprojects {
     apply plugin: "io.franzbecker.gradle-lombok"
 
     lombok { // optional: values below are the defaults
-        version = "1.18.36"
+        version = "1.18.38"
         sha256 = ""
     }
 }
